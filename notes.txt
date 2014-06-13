@@ -1,0 +1,18 @@
+Akka strictly adheres to the The Reactive Manifesto. Reactive applications aim
+at replacing traditional multithreaded applications with an architecture that
+satisfies one or more of the following requirements:
+
+Event-driven. Using Actors, one can write code that handles requests
+asynchronously and employs non-blocking operations exclusively.
+
+Scalable. In Akka, adding nodes without having to modify the code is possible,
+  thanks both to message passing and location transparency.
+
+Resilient. Any application will encounter errors and fail at some point in
+time. Akka provides “supervision” (fault tolerance) strategies to facilitate a
+self-healing system.
+
+Responsive.  Many of today’s high performance and rapid response applications
+need to give quick feedback to the user and therefore need to react to events
+in an extremely timely manner. Akka’s non-blocking, message-based strategy
+helps achieve this.
